@@ -42,7 +42,9 @@ class StartAppState extends State<StartApp> {
           title: new Text("张佩是猪"),
         ),
         body:
-            new Center(child: new Image(image: AssetImage("assets/start.png"))),
+            new Center(
+                child: new Image(image: AssetImage("assets/start.png"))
+            ),
       ),
     );
   }
